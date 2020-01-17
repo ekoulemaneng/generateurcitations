@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Générateur de citations</title>
+    <meta name="description" content="Générateur aléatoire de citations">
+    <meta name="author" content="Ekoulé Maneng Charly Karl (ekoulemaneng@gmail.com)">
+    <meta property="og:title" content="Générateur aléatoire de citations" />
+    <meta property="og:description" content="Cliquez sur le bouton 'Nouvelle citation' pour en obtenir une nouvelle. Vous pouvez la partager sur les réseaux sociaux." />
+    <meta property="og:type" content="application" />
+    <meta property="og:url" content="https://ekoulemaneng.github.io/generateurcitations" />
+    <meta property="og:image" content="https://ekoulemaneng.github.io/generateurcitations/quote.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand|Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quote-box" class="rounded bg-light mx-auto p-3 position-relative">
+        <blockquote class="blockquote">
+            <p id="text" class="text-center mb-0"></p>
+            <footer id="author"  class="blockquote-footer text-right"></footer>
+        </blockquote>
+        <div class="row">
+            <div class="col text-center mb-1">
+                <button id="new-quote" class="btn font-weight-bold text-white">Nouvelle citation</button>
+            </div>
+            <div class="col text-center text-nowrap">
+                <a target="_blank" id="tweet-quote" title="Tweetez cette sitation"><i class="fab fa-twitter-square fa-2x share-icon align-middle mx-1"></i></a>
+                <a target="_blank" id="share-quote-on-facebook" title="Partagez sur FaceBook"><i class="fab fa-facebook-square fa-2x share-icon align-middle mx-1"></i></a>
+                <a target="_blank" id="share-quote-on-whatsapp" title="Partagez sur Whatsapp"><i class="fab fa-whatsapp-square fa-2x share-icon align-middle mx-1"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
